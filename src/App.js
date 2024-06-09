@@ -1,6 +1,10 @@
 // src/App.js
 import React from 'react';
 import { Box } from '@mui/material';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/storage';
+
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
