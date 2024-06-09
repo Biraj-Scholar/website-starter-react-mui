@@ -3,6 +3,8 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
+import ThemeToggleButton from './ThemeToggleButton';
+
 const NavBar = () => {
   return (
     <AppBar position="static">
@@ -17,6 +19,7 @@ const NavBar = () => {
         <Button color="inherit">About</Button>
         <Button color="inherit">Services</Button>
         <Button color="inherit">Contact</Button>
+        <ThemeToggleButton />
       </Toolbar>
     </AppBar>
   );
