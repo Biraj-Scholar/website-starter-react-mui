@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Typography, Button, Grid, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import ThemeToggleButton from './ThemeToggleButton';
+import PopupComponent from './PopupComponent';
 
 const Home = () => {
   const theme = useTheme();
@@ -27,6 +28,7 @@ const Home = () => {
           <Button variant="contained" color="primary" size={isXs ? "small" : "medium"}>
             Get Started
           </Button>
+          <PopupComponent />
         </Grid>
         <Grid item xs={12} sm={6} md={2} align="center">
           <ThemeToggleButton />
